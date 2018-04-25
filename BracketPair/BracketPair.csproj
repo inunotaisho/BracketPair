@@ -4,4 +4,23 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Link>README.md</Link>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Src\" />
+    <Folder Include="Src\DocumentDecorationManager\" />
+    <Folder Include="Src\DocumentDecorationManager\DocumentDecoration\" />
+    <Folder Include="Src\DocumentDecorationManager\GutterIconManager\" />
+    <Folder Include="Src\DocumentDecorationManager\Settings\" />
+    <Folder Include="Src\DocumentDecorationManager\BaseFiles\" />
+    <Folder Include="Src\DocumentDecorationManager\Interfaces\" />
+    <Folder Include="Src\DocumentDecorationManager\Enum\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Workspace.VSIntegration" Version="15.0.401" />
+    <PackageReference Include="Microsoft.VisualStudio.Workspace" Version="15.0.401" />
+  </ItemGroup>
 </Project>

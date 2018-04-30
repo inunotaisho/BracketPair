@@ -8,6 +8,9 @@
     <None Include="..\README.md">
       <Link>README.md</Link>
     </None>
+    <None Include="..\LICENSE.txt">
+      <Link>LICENSE.txt</Link>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Src\" />
@@ -22,5 +25,10 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Workspace.VSIntegration" Version="15.0.401" />
     <PackageReference Include="Microsoft.VisualStudio.Workspace" Version="15.0.401" />
+    <PackageReference Include="Microsoft.VisualStudio.CoreUtility" Version="15.6.27740" />
+    <PackageReference Include="Microsoft.VisualStudio.Text.Data" Version="15.6.27740" />
+    <PackageReference Include="Microsoft.VisualStudio.Text.UI" Version="15.6.27740" />
+    <PackageReference Include="Microsoft.VisualStudio.Text.Logic" Version="15.6.27740" />
+    <PackageReference Include="Microsoft.VisualStudio.Text.UI.Wpf" Version="15.6.27740" />
   </ItemGroup>
 </Project>
